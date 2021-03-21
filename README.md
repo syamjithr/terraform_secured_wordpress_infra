@@ -4,8 +4,11 @@
 Download Terraform from link and set up it in a linux machine. ( Here I'm using a ec2 instance) Configure aws cli in the instance.
 #### First we need to create a directory
 mkdir ec2-wordpress
+
 cd ec2-wordpress/
+
 terraform init
+
 vim wordpress-infra.tf
 ```
 ########################### create vpc ##########################
