@@ -1,5 +1,5 @@
 # terraform_secured_wordpress_infra
-#### A simple and secured wordpress infrastructure using terraform in AWS. It Creates a VPC with three public and private subnets. Deploys two ec2 instances, One Bastion, One wordpress server, and one RDS (Database server). The bastion and wordpress are created in the public subnet and the RDS (Database server) in the private subnet. The wordpress server allow only the bastion server to ssh into it. Also the RDS allow wordpress server on port 3306.
+#### A simple and secured wordpress infrastructure using terraform in AWS. It Creates a VPC with three public and private subnets. Deploys two ec2 instances, One Bastion, One wordpress server, and one RDS (Database server). The bastion and wordpress are created in the public subnet and the RDS (Database server) in the private subnet. The wordpress server allow only the bastion server to ssh into it. Also the RDS allow only wordpress server on port 3306.
 #### Prerequisite:
 Download Terraform from link and set up it in a linux machine. ( Here I'm using a ec2 instance) Configure aws cli in the instance.
 #### First we need to create a directory
